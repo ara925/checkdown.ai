@@ -1,0 +1,10 @@
+project_id = "kucnwjwwklohafazalfr"
+
+[functions.create-organization]
+verify_jwt = false
+
+[functions.invite-member]
+verify_jwt = true
+
+[functions.accept-invitation]
+verify_jwt = true
